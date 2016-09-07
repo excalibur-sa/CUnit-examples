@@ -11,4 +11,5 @@ use CUnit to write test case program
   
   example 1：AutomatedTest
   example 2: BasicTest
+  example 3: ConsleTest
   
