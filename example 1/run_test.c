@@ -3,7 +3,6 @@
 
 int main( int argc, char *argv[] )
 {
-       printf("hello");
        if(CU_initialize_registry()){
                 fprintf(stderr, " Initialization of Test Registry failed. ");
                 exit(1);

@@ -39,7 +39,8 @@ int suite_success_init(void) { return 0; }
 int suite_success_clean(void) { return 0; }
 
 CU_SuiteInfo suites[] = {
-        {"Testing the function maxi:", suite_success_init, suite_success_clean, testcases},
+        {"Testing the function maxi:", suite_success_init, suite_success_clean, NULL, NULL, testcases},
+        {"Testing the function maxi again:",suite_success_init, suite_success_clean, NULL, NULL, testcases},
         CU_SUITE_INFO_NULL
 };
 /**//*---- setting enviroment -----------*/
