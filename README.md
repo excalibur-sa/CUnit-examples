@@ -7,7 +7,7 @@ use CUnit to write test case program
 
 2. Examples
   There are some examples for using different mode of CUnit.
-  Before compile and running each example, run cunit_env.sh first. Then, run compile.sh in each example to compile it.
+  Before compile and running each example, run cunit_env.sh first. Then, run #make in each example to compile it.
   
   example 1：AutomatedTest
   example 2: BasicTest
